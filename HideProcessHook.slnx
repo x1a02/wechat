@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="HideMe/HideMe.vcxproj" Id="fb3168c5-b5be-454e-a6c1-43746e1439aa" />
+  <Project Path="HideProcessHook/HideProcessHook.vcxproj" Id="7bdab39b-f604-4062-b2f8-9e7dbb7d0184" />
+  <Project Path="TaskMgrHook/TaskMgrHook.vcxproj">
+    <Platform Solution="*|ARM64" Project="x64" />
+  </Project>
+</Solution>
